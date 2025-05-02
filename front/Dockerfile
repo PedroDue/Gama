@@ -11,5 +11,5 @@ COPY gama-front/ ./gama-front/
 
 WORKDIR /app/gama-front
 
-EXPOSE 4200
+EXPOSE 4201
 CMD ["npm", "start"]

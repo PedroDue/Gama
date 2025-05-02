@@ -1,24 +1,27 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-
-# dependencies
-front/gama-front/node_modules/
-back/node_modules/
-
-# builds
-node_modules/
-front/gama-front/dist/
-back/.next/
-
-# IntelliJ/WebStorm
+# IDEs (WebStorm, IntelliJ, etc.)
 .idea/
 *.iml
 
-# Docker
+# Editor-based HTTP Client
+/httpRequests/
+
+# Datasources (JetBrains)
+/dataSources*
+/shelf/
+/workspace.xml
+
+# Dependências
+**/node_modules/
+
+# Builds e temporários
+**/dist/
+**/.next/
+**/.turbo/
+**/.output/
+
+# Docker volumes e dados
 **/pgdata/
+
+# Sistema
+.DS_Store
+Thumbs.db
