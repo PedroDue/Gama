@@ -6,12 +6,12 @@ services:
       context: ./front
       dockerfile: Dockerfile
     ports:
-      - "4200:4200"
+      - "4201:4201"
     volumes:
       - ./front/gama-front:/app/gama-front
       - /app/gama-front/node_modules
     working_dir: /app/gama-front
-    command: ng serve --host 0.0.0.0 --port 4200
+    command: ng serve --host 0.0.0.0 --port 4201
     depends_on:
       - back
 
